@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package>
+    <name>Lister_CookieThemer</name>
+    <version>0.0.1</version>
+    <stability>stable</stability>
+    <license>Open Software License (OSL)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>CookieThemer - Module allows us to switch multiple themes for a website based on the cookie set in the page</summary>
+    <description>Magento Installations by default allows only one theme to be associated for a website . If you want to test the response for a new design for the same website , by showing only the new design to a certain percent of people and the old design to other people based on geo-location ,we have no inbuilt support.&#xD;
+&#xD;
+This module helps to reduce the pain by allowing us to set multiple themes for a website  ( like we write exceptions for mobile site based on the useragent) . The logic is decided by the cookie name and cookie value set from Test and Target or from external sites which decides which users gets to see the redesigned / old cart .</description>
+    <notes>This is the initial stable version.</notes>
+    <authors><author><name>Lister Technologies (P) Ltd</name><user>Lister</user><email>senthil.muppidathi@listertechnologies.com</email></author></authors>
+    <date>2016-04-13</date>
+    <time>06:14:22</time>
+    <contents><target name="magecommunity"><dir name="Lister"><dir name="CookieThemer"><dir name="Block"><dir name="Adminhtml"><dir name="System"><dir name="Config"><dir name="Form"><dir name="Field"><file name="Cookieexceptions.php" hash="1d56cd8b8d7d6031f7585b05a8c84843"/></dir></dir></dir></dir></dir></dir><dir name="Helper"><file name="Data.php" hash="c269e71e6392be2928d16e777df27502"/></dir><dir name="Model"><dir name="Design"><file name="Package.php" hash="a6d881d311d4b42bab735ea2dd7a67d9"/></dir></dir><dir name="etc"><file name="config.xml" hash="52ada04b767a4a3befd5c15a443a5935"/><file name="system.xml" hash="c786b6940f42bdefc2dbbde172ebd525"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Lister_CookieThemer.xml" hash="afcf81d3137642a5bd2d16efdac01c94"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>5.6.9</max></php></required></dependencies>
+</package>

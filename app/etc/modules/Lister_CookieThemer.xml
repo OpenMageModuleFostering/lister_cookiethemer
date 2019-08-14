@@ -1,0 +1,8 @@
+<config>
+    <modules>
+        <Lister_CookieThemer>
+            <active>true</active>
+            <codePool>community</codePool>
+        </Lister_CookieThemer>
+    </modules>
+</config>

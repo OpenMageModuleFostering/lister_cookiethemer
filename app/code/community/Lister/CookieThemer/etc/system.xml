@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<config>
+    <sections>
+        <design translate="label" module="core">
+            <label>Design</label>
+            <tab>general</tab>
+            <frontend_type>text</frontend_type>
+            <sort_order>30</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <groups>
+                <theme translate="label">
+                    <label>Themes</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>2</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <template_cookie translate="comment">
+                            <label></label>
+                            <frontend_model>cookiethemer/adminhtml_system_config_form_field_cookieexceptions</frontend_model>
+                            <backend_model>adminhtml/system_config_backend_design_exception</backend_model>
+                            <sort_order>26</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment>Enter cookiename|cookievalue.Change theme based on the Cookie Match .Match expressions in the same order as displayed in the configuration.</comment>
+                        </template_cookie>
+                        <skin_cookie translate="comment">
+                            <label></label>
+                            <frontend_model>cookiethemer/adminhtml_system_config_form_field_cookieexceptions</frontend_model>
+                            <backend_model>adminhtml/system_config_backend_design_exception</backend_model>
+                            <sort_order>36</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment>Enter cookiename|cookievalue.Change skin based on the Cookie Match .Match expressions in the same order as displayed in the configuration.</comment>
+                        </skin_cookie>
+                        <layout_cookie translate="comment">
+                            <label></label>
+                            <frontend_model>cookiethemer/adminhtml_system_config_form_field_cookieexceptions</frontend_model>
+                            <backend_model>adminhtml/system_config_backend_design_exception</backend_model>
+                            <sort_order>56</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment>Enter cookiename|cookievalue.Change layout based on the Cookie Match .Match expressions in the same order as displayed in the configuration.</comment>
+                        </layout_cookie>
+                    </fields>
+                </theme>
+            </groups>
+        </design>
+    </sections>
+</config>
