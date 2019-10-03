@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Lister_CookieThemer",
+    "name": "OpenMageModuleFostering\/Lister_CookieThemer",
     "type": "magento-module",
     "license": "Open-Software-License-(OSL)",
     "homepage": "",
     "description": "CookieThemer - Module allows us to switch multiple themes for a website based on the cookie set in the page",
     "authors": [
-    {
-        "name": "Lister Technologies (P) Ltd",
-        "email": "senthil.muppidathi@listertechnologies.com"
-    }
-],
+        {
+            "name": "Lister Technologies (P) Ltd",
+            "email": "senthil.muppidathi@listertechnologies.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
